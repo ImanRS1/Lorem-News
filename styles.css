@@ -4,7 +4,7 @@ body{
 
 
 #header{
-    height: 100px;
+    height: 110px;
     width: 100%;
     background-color: black;
     position: sticky;
@@ -98,8 +98,31 @@ body{
     width: 24px;
     height: 24px;
     padding: 0;
+}
+
+#header-bottomsection{
+    width: 100%;
+}
+
+#header-bottomsection-container{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+#navoptions{
+    margin: 1px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+}
+#navoptions li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    padding: 0 2.8%;
     
 }
+
 
 
 
