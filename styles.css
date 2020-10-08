@@ -4,20 +4,20 @@ body{
 
 
 #header{
-    height: 140px;
+    height: 100px;
     width: 100%;
     background-color: black;
     position: sticky;
     top: 0;
-    
 }
+
 #header-topsection{
     width: 100%;
-    height: 28px;
+    height: 22px;
     background-color: whitesmoke;
 }
 
-.topsection-container{
+.header-topsection-container{
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -25,31 +25,83 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.topsection-container ul{
+.header-topsection-container ul{
     margin: 0;
     padding: 0;
     display: inline;
 }
-.topsection-container ul li{
+.header-topsection-container ul li{
     list-style-type: none;
     display: inline;
     margin-right: 10px;
 }
-
 #header-icons{
     margin-top: 4px;
 }
+#header-icons li{ 
+    margin-left: 10px;
+    margin-right: 0px;
+}
 
-#header-languages{
+#header-middlesection{
+    width: 100%;
+    height: 64px;    
+    border-bottom: solid 2px white;
+}
+#header-middlesection-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
 }
 
 #header-title{
-    font-size: large;
+    font-size: 40px;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    font-family: fantasy;
 }
+
+#header-title p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#header-icon{   
+    margin-right: 15px;
+}
+
+#header-searchbar-section{
+    margin-top: 13px;
+}
+
+#header-searchbar-section p{
+    color: white;
+    margin: 0 0 10px 0;
+    text-align: end;
+}
+
+#header-searchbar{
+    position: relative;    
+    width: 200px;
+}
+
+#searchField{
+    width: 95%;
+}
+#searchButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    
+}
+
+
 
 #main{
     background-color: beige;
