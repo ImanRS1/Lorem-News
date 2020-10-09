@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 #header{
@@ -107,7 +107,6 @@ body{
     padding: 0;
 }
 
-
 #navoptions{
     margin: 1px 0 0 0;
     padding: 0;
@@ -126,10 +125,74 @@ body{
 }
 
 #main{
-    background-color: beige;
     width: 1200px;
     height: 700px;
     margin: 0 auto;
+}
+
+#breaking-news{
+    padding-top: 25px;
+    width: 100%;
+}
+#breaking-news-icon{
+    color: white;
+    margin-left: 50px;
+    width: auto;
+    display: inline-block;
+}
+#breaking-news-icon p{
+    padding: 8px 10px;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(221, 3, 3);
+}
+
+.breaking-newslist ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.breaking-newslist ul li{
+    display: inline;
+    border-right: 1px solid darkgray;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+#breaking-newslist-hours{
+    font-weight: normal;
+    display: block;
+    padding: 2px 0px;
+    color: darkgray;
+    font-size: 14px;
+}
+
+#lastBNlist{
+    border-right: none;
+    color: transparent;
+    background-image: linear-gradient(to right, black, white);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#breaking-newslist-nextbutton{
+    border: 1px solid darkgray;
+    display: flex;
+    align-items: center; 
+    border-radius: 50%;
+    width: auto;
+    padding: 9px;
+    height: 11px;
+    margin-top: 20px;
+    background-color: darkgray;
+    font-weight: bold;
+    color: white;
+}
+
+#breaking-newslist-nextbutton:hover{
+    cursor: pointer;
+    background-color: rgb(182, 3, 3);
 }
 
 #footer{
