@@ -152,6 +152,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 0px;
+    padding-left: 0px; 
 }
 .breaking-newslist ul li{
     display: inline;
@@ -183,7 +184,7 @@ body{
     border-radius: 50%;
     width: auto;
     padding: 9px;
-    height: 11px;
+    height: 10px;
     margin-top: 20px;
     background-color: darkgray;
     font-weight: bold;
