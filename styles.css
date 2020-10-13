@@ -226,11 +226,13 @@ body{
 #main-section1-left{
     grid-area: mainsection1left;
     background-color: seagreen;
+    position: relative;
 }
 
 #main-section1-left img{
     width: 100%;
     height: 100%;
+    z-index: -99;
 }
 
 #main-section1-right1 img, #main-section1-right2 img, #main-section1-right3 img, #main-section1-right4 img{
@@ -251,16 +253,59 @@ body{
 
 #main-section1-right1{
     grid-area: mainsection1right1;
+    position: relative;
 }
 #main-section1-right2{
     grid-area: mainsection1right2;
+    position: relative;
 }
 #main-section1-right3{
     grid-area: mainsection1right3;
+    position: relative;
 }
 #main-section1-right4{
     grid-area: mainsection1right4;
+    position: relative;
 }
+
+.insidePms1l{
+    position: absolute;
+    bottom: 70px;
+    text-align: start;
+    margin: 0% 5%
+}
+
+#insidePms1lu{
+    color: lightgray;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: Verdana;
+}
+
+.insidePms1r1{
+    position: absolute;
+    bottom: 10px;
+    text-align: start;
+    margin: 0% 5%;
+}
+
+.insidePms1r2{
+    position: absolute;
+    bottom: 10px;
+    text-align: start;
+    margin: 0% 5%;
+}
+
+.insidePms1style{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+
+
 
 #footer{
     height: 140px;
