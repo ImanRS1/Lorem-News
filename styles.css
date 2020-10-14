@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header{
@@ -9,6 +10,7 @@ body{
     position: sticky;
     top: 0;
     text-decoration: none;
+    z-index: 999;
 }
 
 #header a{
@@ -216,6 +218,7 @@ body{
 }
 
 #main-section1{
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px;
@@ -270,16 +273,18 @@ body{
 
 .insidePms1l{
     position: absolute;
-    bottom: 70px;
+    bottom: 40px;
     text-align: start;
-    margin: 0% 5%
+    margin: 0% 5%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 #insidePms1lu{
     color: lightgray;
     font-size: 18px;
     font-weight: normal;
-    font-style: Verdana;
 }
 
 .insidePms1r1{
@@ -298,8 +303,9 @@ body{
 
 .insidePms1style{
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bolder;
+    margin-bottom: 5px;
 }
 
 
