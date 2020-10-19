@@ -309,6 +309,30 @@ body{
 }
 
 
+#main-section2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    grid-template-areas: "mainsection2left mainsection2middle mainsection2right";
+    column-gap: 15px;   
+    margin-bottom: 50px;
+}
+
+#main-section2-left{
+    grid-area: mainsection2left;
+    background-color: lightgreen;
+}
+#main-section2-middle{
+    grid-area: mainsection2middle;
+    background-color: lightgreen;
+}
+#main-section2-right{
+    grid-area: mainsection2right;
+    background-color: lightgreen;
+}
+
+
 
 
 
@@ -317,4 +341,5 @@ body{
     height: 140px;
     width: 100%;
     background-color: lightslategray;
+
 }
