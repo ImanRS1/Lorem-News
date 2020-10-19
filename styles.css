@@ -322,15 +322,12 @@ body{
 
 #main-section2-left{
     grid-area: mainsection2left;
-    background-color: lightgreen;
 }
 #main-section2-middle{
     grid-area: mainsection2middle;
-    background-color: lightgreen;
 }
 #main-section2-right{
     grid-area: mainsection2right;
-    background-color: lightgreen;
 }
 
 #main-section2-left img, #main-section2-middle img, #main-section2-right img{
