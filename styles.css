@@ -128,7 +128,7 @@ body{
 
 #main{
     width: 1200px;
-    height: 700px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -335,7 +335,28 @@ body{
     height: 250px;
 }
 
+#main-section3{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    grid-template-areas: "mainsection3left mainsection3middle mainsection3middle mainsection3right";
+    column-gap: 15px;   
+    margin-bottom: 50px;
+    font-weight: bold;
+}
 
+#main-section3-left{
+    grid-area: mainsection3left;
+}
+
+#main-section3-middle{
+    grid-area: mainsection3middle;
+}
+
+#main-section3-right{
+    grid-area: mainsection3right;
+}
 
 
 #footer{
