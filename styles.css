@@ -316,7 +316,7 @@ body{
     grid-template-rows: 350px;
     grid-template-areas: "mainsection2left mainsection2middle mainsection2right";
     column-gap: 15px;   
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
@@ -336,28 +336,56 @@ body{
 }
 
 #main-section3{
-    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 350px;
     grid-template-areas: "mainsection3left mainsection3middle mainsection3middle mainsection3right";
     column-gap: 15px;   
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 
 #main-section3-left{
     grid-area: mainsection3left;
+    display: grid;
+    justify-items: stretch;
+}
+
+#main-section3-left img{
+    width: 100%;
+    height: 160px;
+}
+
+#ms3lP1{
+    margin-top: 4px;
+}
+
+#ms3lP2{
+    margin-bottom: 0px;
 }
 
 #main-section3-middle{
     grid-area: mainsection3middle;
 }
 
-#main-section3-right{
-    grid-area: mainsection3right;
+#main-section3-middle img{
+    width: 100%;
+    height: 100%;
 }
 
+#main-section3-right{
+    grid-area: mainsection3right;
+    display: grid;
+    justify-items: stretch;
+}
+
+#ms3rP1{
+    margin-top: 0px;
+}
+
+#ms3rP2{
+    margin-bottom: 0px;
+}
 
 #footer{
     height: 140px;
