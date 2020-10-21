@@ -387,9 +387,34 @@ body{
     margin-bottom: 0px;
 }
 
+#slide-section1{
+    height: 250px;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+#featured-slide{
+    width: 1200px;
+    height: 100%;
+    background-color: linen;
+    margin: 0 auto;
+    position: relative;
+}
+
+#featured-text{
+    position: absolute;
+    left: 20px; 
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
 #footer{
     height: 140px;
     width: 100%;
     background-color: lightslategray;
+    margin-top: 100px;
 
 }
