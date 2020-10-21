@@ -388,7 +388,7 @@ body{
 }
 
 #slide-section1{
-    height: 250px;
+    height: 300px;
     width: 100%;
     background-color: lightskyblue;
 }
@@ -399,11 +399,24 @@ body{
     background-color: linen;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#featured-slide img{
+    width: 300px;
+    height: auto;
+}
+
+#featured-pic-middle img{
+    width: 400px;
 }
 
 #featured-text{
     position: absolute;
     left: 20px; 
+    top: 5px;
     font-weight: bold;
     color: white;
     text-decoration: underline;
