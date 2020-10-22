@@ -391,6 +391,27 @@ body{
     height: 300px;
     width: 100%;
     background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+#mesh-background{
+    opacity: 0.1;
+    z-index: 2;
+    position: absolute;
+}
+
+#slider-background-pic{
+    overflow: hidden;
+}
+
+#slider-background-pic img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    filter: grayscale(90%);
+    z-index: 1;
+    opacity: 0.2;
 }
 
 #featured-slide{
@@ -401,12 +422,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 3;
 }
 
 #featured-slide img{
     width: 300px;
     height: auto;
-    filter: grayscale(60%);
+    filter: grayscale(70%);
 }
 
 #featured-pic-right p, #featured-pic-left p{
