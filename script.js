@@ -10,6 +10,8 @@ console.log(featuredSlideObjects);
 
 function plusSlides(i){
 
+    document.getElementById("current-slider-bPic").src="images/featuredpic1.jpg";
+
     if(i == 1){
 
 
