@@ -459,11 +459,11 @@ body{
 }
 
 
-#hidden-slide-list-imgs{
+.hidden-slide-list-imgs{
     display: none;
 }
 
-#hidden-slide-list-text{
+.hidden-slide-list-text{
     display: none;
 }
 
