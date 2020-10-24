@@ -7,33 +7,31 @@ document.getElementsByClassName
 var hiddenSlideImages = document.getElementsByClassName("hidden-slide-list-imgs");
 var hiddenSlideTexts = document.getElementsByClassName("hidden-slide-list-text");
 
-console.log(hiddenSlideImages);
-console.log(hiddenSlideTexts);
 
-console.log(hiddenSlideImages.item(0));
-console.log(hiddenSlideImages.item(1));
-console.log(hiddenSlideImages.item(2));
 
 slideInit();
 
 function slideInit(){
+
+    console.log(hiddenSlideImages);
+
+    hiddenSlideImages.item(0).removeAttribute("id", "hide-content");
+    hiddenSlideTexts.item(0).removeAttribute("id", "hide-content");
+    hiddenSlideImages.item(1).removeAttribute("id", "hide-content");
+    hiddenSlideTexts.item(1).removeAttribute("id", "hide-content");
+    hiddenSlideImages.item(2).removeAttribute("id", "hide-content");
+    hiddenSlideTexts.item(2).removeAttribute("id", "hide-content");
+
     hiddenSlideImages.item(0).setAttribute("id", "featured-pic-left");
-    hiddenSlideTexts.item(0).setAttribute("id", "featured-pic-left");
+    hiddenSlideTexts.item(0).setAttribute("id", "featured-text-left");
     hiddenSlideImages.item(1).setAttribute("id", "featured-pic-middle");
-    hiddenSlideTexts.item(1).setAttribute("id", "featured-pic-middle");
+    hiddenSlideTexts.item(1).setAttribute("id", "featured-text-middle");
     hiddenSlideImages.item(2).setAttribute("id", "featured-pic-right");
-    hiddenSlideTexts.item(2).setAttribute("id", "featured-pic-right");
+    hiddenSlideTexts.item(2).setAttribute("id", "featured-text-right");
 
-
-    hiddenSlideImages.item(0).removeAttribute("class", "hidden-slide-list-imgs");
-    hiddenSlideTexts.item(0).removeAttribute("class", "hidden-slide-list-imgs");
-    hiddenSlideImages.item(1).removeAttribute("class", "hidden-slide-list-imgs");
-    hiddenSlideTexts.item(1).removeAttribute("class", "hidden-slide-list-imgs");
-    hiddenSlideImages.item(2).removeAttribute("class", "hidden-slide-list-imgs");
-    hiddenSlideTexts.item(2).removeAttribute("class", "hidden-slide-list-imgs");
-
-    hiddenSlideImages.item(1).removeAttribute("class", "hidden-slide-list-imgs");
+    console.log(hiddenSlideImages);
 }
+
 
 
 var slideCounter = 0;
