@@ -3,18 +3,11 @@ document.getElementById("theDate").innerHTML = currentDate;
 
 
 
-document.getElementsByClassName
 var hiddenSlideImages = document.getElementsByClassName("hidden-slide-list-imgs");
 var hiddenSlideTexts = document.getElementsByClassName("hidden-slide-list-text");
-
-
-
 slideInit();
 
 function slideInit(){
-
-    console.log(hiddenSlideImages);
-
     hiddenSlideImages.item(0).removeAttribute("id", "hide-content");
     hiddenSlideTexts.item(0).removeAttribute("id", "hide-content");
     hiddenSlideImages.item(1).removeAttribute("id", "hide-content");
@@ -28,8 +21,6 @@ function slideInit(){
     hiddenSlideTexts.item(1).setAttribute("id", "featured-text-middle");
     hiddenSlideImages.item(2).setAttribute("id", "featured-pic-right");
     hiddenSlideTexts.item(2).setAttribute("id", "featured-text-right");
-
-    console.log(hiddenSlideImages);
 }
 
 
@@ -41,6 +32,20 @@ function plusSlides(i){
     document.getElementById("current-slider-bPic").src="images/featuredpic3.jpg";
 
     if(i == 1){
+        hiddenSlideImages.item(slideCounter).removeAttribute("id", "featured-pic-left");
+        hiddenSlideImages.item(slideCounter).setAttribute("id", "hide-content");
+
+        hiddenSlideImages.item(slideCounter+1).removeAttribute("id", "featured-pic-middle");
+        hiddenSlideImages.item(slideCounter+1).setAttribute("id", "featured-pic-left");
+
+        hiddenSlideImages.item(slideCounter+2).removeAttribute("id", "featured-pic-right");
+        hiddenSlideImages.item(slideCounter+2).setAttribute("id", "featured-pic-middle");
+
+        hiddenSlideImages.item(slideCounter+3).removeAttribute("id", "hide-content");
+        hiddenSlideImages.item(slideCounter+3).setAttribute("id", "featured-pic-right");
+
+        console.log(slideCounter);
+        
 
 
         
@@ -48,7 +53,7 @@ function plusSlides(i){
 
 
 
-        if(slideCounter < 6){       
+        if(slideCounter < 4){       
             slideCounter++;            
         }else{
             slideCounter = 0;
@@ -83,6 +88,4 @@ function plusSlides(i){
 
     } */
 
-    for(var i = 0; i < featuredSlideObjects.length; i++){
-    }
 }
