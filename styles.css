@@ -432,10 +432,18 @@ body{
     width: 100%;
 }
 
-#featured-pic-right, #featured-pic-left{
+#featured-pic-right{
     width: 300px;
     height: auto;
     filter: grayscale(70%);
+    order: 3;
+}
+
+#featured-pic-left{
+    width: 300px;
+    height: auto;
+    filter: grayscale(70%);
+    order: 1;
 }
 
 #featured-text-right, #featured-text-left{
@@ -445,6 +453,7 @@ body{
 #featured-pic-middle{
     width: 400px;
     filter: grayscale(0%);
+    order: 2;
 }
 
 #featured-text-middle{ 
