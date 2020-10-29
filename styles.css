@@ -479,6 +479,9 @@ body{
     display: none;
 }
 
+.hidden-slide-list-imgs{
+    dispaly: none;
+}
 
 
 

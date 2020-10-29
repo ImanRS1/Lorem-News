@@ -36,7 +36,10 @@ function plusSlides(i){
 
     if(i == 1){
 
-        if(slideCounter < 4){
+        var test = hiddenSlideImages.namedItem("featuredpic3.jpg");
+        //console.log(hiddenSlideImages);
+        console.log(test)
+       /*  if(slideCounter < 4){
             hiddenSlideImages.item(slideCounter).removeAttribute("id", "featured-pic-left");
             hiddenSlideImages.item(slideCounter).setAttribute("id", "hide-content");
             //den fjärde bilden slyssas ut till hidden
@@ -90,11 +93,11 @@ function plusSlides(i){
             }else if(slideCounter==6){
                 slideInit();
                 slideCounter = 0;
-            }
+            } */
 
     }else{
         if(slideCounter < 1){
-            hiddenSlideImages.item(slideCounter).removeAttribute("id", "featured-pic-left");
+            /* hiddenSlideImages.item(slideCounter).removeAttribute("id", "featured-pic-left");
             hiddenSlideImages.item(slideCounter).setAttribute("id", "featured-pic-middle");
 
 
@@ -138,13 +141,30 @@ function plusSlides(i){
             hiddenSlideImages.item(slideCounter+2).removeAttribute("id", "hide-content");
             hiddenSlideImages.item(slideCounter+2).setAttribute("id", "featured-pic-left");
             slideCounter++;
+            console.log(slideCounter);
         }
 
         else if(slideCounter > 2){
-            
-        }
+            hiddenSlideImages.item(slideCounter-2).removeAttribute("id", "featured-pic-right");
+            hiddenSlideImages.item(slideCounter-2).setAttribute("id", "hide-content");
 
+            hiddenSlideImages.item(slideCounter+4).removeAttribute("id", "featured-pic-middle");
+            hiddenSlideImages.item(slideCounter+4).setAttribute("id", "featured-pic-right");
+
+            hiddenSlideImages.item(slideCounter+3).removeAttribute("id", "featured-pic-left");
+            hiddenSlideImages.item(slideCounter+3).setAttribute("id", "featured-pic-middle");
+
+            hiddenSlideImages.item(slideCounter+2).removeAttribute("id", "hide-content");
+            hiddenSlideImages.item(slideCounter+2).setAttribute("id", "featured-pic-left");
+            slideCounter++;
+            console.log(slideCounter);
+
+        } */
+
+/* 
+    } */
+
+}
 
     }
-
 }
