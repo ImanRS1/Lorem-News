@@ -425,7 +425,7 @@ body{
     z-index: 3;
 }
 
-#slide-content{
+.slide-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -437,6 +437,7 @@ body{
     height: auto;
     filter: grayscale(70%);
     order: 3;
+    display: block;
 }
 
 #featured-pic-left{
@@ -466,6 +467,11 @@ body{
     font-size: 20px;
 }
 
+#hide-content{
+    display: none;
+}
+
+
 #featured-text{
     position: absolute;
     left: 20px; 
@@ -475,13 +481,6 @@ body{
     text-decoration: underline;
 }
 
-#hide-content{
-    display: none;
-}
-
-.hidden-slide-list-imgs{
-    dispaly: none;
-}
 
 
 
