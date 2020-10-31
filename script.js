@@ -76,7 +76,6 @@ var thisMidSlide = currentMidSlideSrc.substr(67,1);
         }
     }
 
-    document.getElementById("current-slider-bPic").src = document.getElementById("featured-pic-middle").src;
 
     }else{
         console.log(thisRightSlide);
@@ -97,11 +96,18 @@ var thisMidSlide = currentMidSlideSrc.substr(67,1);
         }else if(thisRightSlide == 6){
             hiddenSlideImages.item(thisRightSlide - 2).setAttribute("id", "featured-pic-middle"); 
             hiddenSlideImages.item(thisRightSlide - 3).setAttribute("id", "featured-pic-left");
-        }        
+        }else if(thisRightSlide == 5 || thisRightSlide == 4){
+            hiddenSlideImages.item(thisRightSlide - 2).setAttribute("id", "featured-pic-middle"); 
+            hiddenSlideImages.item(thisRightSlide - 3).setAttribute("id", "featured-pic-left");
+        }else if(thisRightSlide == 3){
+            slideInit();
+        }      
         else{
         hiddenSlideImages.item(thisRightSlide - 2).setAttribute("id", "featured-pic-middle");
         hiddenSlideImages.item(thisRightSlide + 4).setAttribute("id", "featured-pic-left");
-        }
-    
-}
+        }        
+    }
+
+    document.getElementById("current-slider-bPic").src = document.getElementById("featured-pic-middle").src;
+
 }
