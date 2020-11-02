@@ -26,6 +26,7 @@ function slideInit(){
 
     hiddenSlideImages.item(0).setAttribute("id", "featured-pic-left");
     hiddenSlideImages.item(1).setAttribute("id", "featured-pic-middle");
+    hiddenSlideTexts.item(1).setAttribute("id", "featured-text-middle");
     hiddenSlideImages.item(2).setAttribute("id", "featured-pic-right");
 }
 
