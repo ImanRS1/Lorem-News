@@ -10,18 +10,13 @@ var slideContent = document.getElementsByClassName("slide-content");
 
 
 
-/* 
-slideContent.children[0].removeAttribute("id");
-slideContent.children[0].setAttribute("id", "featured-pic-left"); */
-
-
 slideInit();
 
 
 function slideInit(){
     for(var i = 0; i<hiddenSlideImages.length; i++){
-        //hiddenSlideImages.item(i).removeAttribute("id", "'pic' + 'i'")
         hiddenSlideImages.item(i).setAttribute("id", "hide-content");
+        hiddenSlideTexts.item(i).setAttribute("id", "hide-content");
     }
 
     hiddenSlideImages.item(0).setAttribute("id", "featured-pic-left");
@@ -30,28 +25,15 @@ function slideInit(){
     hiddenSlideImages.item(2).setAttribute("id", "featured-pic-right");
 }
 
-
-
-
-/* if(currentRightSlideSrc.includes("images/featuredpic3.jpg")){
-    console.log("yes");
-} */
-
-
-var slideCounter = 0;
-
 function plusSlides(i){
-
     
 var currentRightSlideSrc = document.getElementById("featured-pic-right").src;
 var currentLeftSlideSrc = document.getElementById("featured-pic-left").src;
-var currentMidSlideSrc = document.getElementById("featured-pic-middle").src;
 
 var thisLeftSlide = currentLeftSlideSrc.substr(67,1) - 1;
 var thisRightSlide = currentRightSlideSrc.substr(67,1) - 1;
-var thisMidSlide = currentMidSlideSrc.substr(67,1);
 
-    //document.getElementById("current-slider-bPic").src="images/featuredpic3.jpg";
+
 
     if(i == 1){
     
