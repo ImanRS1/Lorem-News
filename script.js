@@ -42,11 +42,15 @@ var thisRightSlide = currentRightSlideSrc.substr(67,1) - 1;
         }else{
             hiddenSlideImages.item(thisLeftSlide).setAttribute("id", "hide-content");
             hiddenSlideImages.item(thisLeftSlide + 1).setAttribute("id", "featured-pic-left");
+            hiddenSlideTexts.item(thisLeftSlide).setAttribute("id", "hide-content");
+            hiddenSlideTexts.item(thisLeftSlide + 1).setAttribute("id", "featured-text-left");
 
             if(thisLeftSlide == 5){
                 hiddenSlideImages.item(thisLeftSlide - 5).setAttribute("id", "featured-pic-middle");
+                hiddenSlideTexts.item(thisLeftSlide - 5).setAttribute("id", "featured-text-middle");
             }else{
                 hiddenSlideImages.item(thisLeftSlide + 2).setAttribute("id", "featured-pic-middle");
+                hiddenSlideTexts.item(thisLeftSlide + 2).setAttribute("id", "featured-text-middle");
             }
             if(thisRightSlide == 6){
                 hiddenSlideImages.item(thisRightSlide - 6).setAttribute("id", "featured-pic-right");
@@ -64,14 +68,19 @@ var thisRightSlide = currentRightSlideSrc.substr(67,1) - 1;
         console.log(thisRightSlide);
 
         hiddenSlideImages.item(thisRightSlide).setAttribute("id", "hide-content");
+        hiddenSlideTexts.item(thisRightSlide).setAttribute("id", "hide-content");
         if(thisRightSlide==0){
             hiddenSlideImages.item(thisRightSlide + 6).setAttribute("id", "featured-pic-right");
+            hiddenSlideTexts.item(thisRightSlide + 6).setAttribute("id", "featured-text-right");
         }else{
             hiddenSlideImages.item(thisRightSlide - 1).setAttribute("id", "featured-pic-right");
+            hiddenSlideTexts.item(thisRightSlide - 1).setAttribute("id", "featured-text-right");
         }
         if(thisRightSlide == 1){
             hiddenSlideImages.item(thisRightSlide + 5).setAttribute("id", "featured-pic-middle");
             hiddenSlideImages.item(thisRightSlide + 4).setAttribute("id", "featured-pic-left");
+            hiddenSlideTexts.item(thisRightSlide + 5).setAttribute("id", "featured-text-middle");
+            hiddenSlideTexts.item(thisRightSlide + 4).setAttribute("id", "featured-text-left");
         }
         else if(thisRightSlide == 0){
             hiddenSlideImages.item(thisRightSlide + 5).setAttribute("id", "featured-pic-middle");
