@@ -1,6 +1,7 @@
 body{
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #header{
@@ -126,7 +127,7 @@ body{
     background-color: darkgray;
 }
 
-#main{
+.main{
     width: 1200px;
     height: auto;
     margin: 0 auto;
@@ -135,6 +136,7 @@ body{
 #breaking-news{
     padding-top: 5px;
     width: 100%;
+    margin-bottom: 30px;
 }
 #breaking-news-icon{
     color: white;
@@ -228,7 +230,6 @@ body{
 
 #main-section1-left{
     grid-area: mainsection1left;
-    background-color: seagreen;
     position: relative;
 }
 
@@ -343,6 +344,7 @@ body{
     column-gap: 15px;   
     margin-bottom: 30px;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 #main-section3-left{
@@ -390,13 +392,14 @@ body{
 #slide-section1{
     height: 300px;
     width: 100%;
+    margin-top: 30px;
     background-color: black;
     position: relative;
     overflow: hidden;
 }
 
 #mesh-background{
-    opacity: 0.1;
+    opacity: 0.2;
     z-index: 2;
     position: absolute;
 }
@@ -411,7 +414,7 @@ body{
     height: 100vh;
     filter: grayscale(90%);
     z-index: 1;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 #featured-slide{
@@ -510,6 +513,10 @@ body{
 #featured-slide-button:hover{
     cursor: pointer;
     background-color: rgb(182, 3, 3);
+}
+
+.hidden-slide-list-text{
+    background-color: rgba(90, 84, 84, 0.7);
 }
 
 #footer{

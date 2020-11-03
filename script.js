@@ -11,7 +11,7 @@ var slideContent = document.getElementsByClassName("slide-content");
 
 
 slideInit();
-
+slideStarter();
 
 function slideInit(){
     for(var i = 0; i<hiddenSlideImages.length; i++){
@@ -23,6 +23,10 @@ function slideInit(){
     hiddenSlideImages.item(1).setAttribute("id", "featured-pic-middle");
     hiddenSlideTexts.item(1).setAttribute("id", "featured-text-middle");
     hiddenSlideImages.item(2).setAttribute("id", "featured-pic-right");
+}
+
+function slideStarter(){
+    setInterval(function(){ plusSlides(1); }, 6000);
 }
 
 function plusSlides(i){
