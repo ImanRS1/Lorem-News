@@ -137,6 +137,8 @@ body{
     padding-top: 5px;
     width: 100%;
     margin-bottom: 30px;
+    
+    overflow: hidden;
 }
 #breaking-news-icon{
     color: white;
@@ -157,7 +159,14 @@ body{
     justify-content: space-between;
     margin-top: 0px;
     padding-left: 0px; 
+    /* margin-left: -100%; */
+   /*  width: 200%; */
 }
+
+.bn-list{
+    width: 200%;
+}
+
 .breaking-newslist ul li{
     display: inline;
     border-right: 1px solid darkgray;
@@ -181,7 +190,18 @@ body{
     background-clip: text;
 }
 
-#breaking-newslist-nextbutton{
+#firstBNlistP{
+    color: transparent;
+    background-image: linear-gradient(to right, white, black, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#lastBNlistP{
+    border-right: none;
+}
+
+#breaking-newslist-nextbutton, #breaking-newslist-prevbutton{
     border: 1px solid darkgray;
     display: flex;
     align-items: center; 
@@ -195,10 +215,52 @@ body{
     color: white;
 }
 
-#breaking-newslist-nextbutton:hover{
+#breaking-newslist-nextbutton:hover, #breaking-newslist-prevbutton:hover{
     cursor: pointer;
     background-color: rgb(182, 3, 3);
 }
+
+.bnListSlideNext{
+    animation: slideLeft linear 2s 1 forwards;
+}
+
+@keyframes slideLeft{
+    100%{
+        margin-left: -100%;
+    }
+}
+
+.bnListSlidePrev{
+    animation: slideRight linear 2s 1;
+}
+
+@keyframes slideRight{
+    0%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+
+/* 
+.phase3-pic-animation{
+    animation: fadeInAndOut ease-in-out 5s infinite 3.5s;
+}
+
+  @keyframes fadeInAndOut{
+    0% {
+        opacity:0;
+      }
+    23.3333%{
+        opacity: 1;
+    }  
+    33.3333% {
+        opacity: 0.2;
+      }
+}
+ */
+
 
 #add-section1-header{
     margin: 20px auto;

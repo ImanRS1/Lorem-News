@@ -31,11 +31,11 @@ function slideStarter(){
 
 function plusSlides(i){
     
-var currentRightSlideSrc = document.getElementById("featured-pic-right").src;
-var currentLeftSlideSrc = document.getElementById("featured-pic-left").src;
+    var currentRightSlideSrc = document.getElementById("featured-pic-right").src;
+    var currentLeftSlideSrc = document.getElementById("featured-pic-left").src;
 
-var thisLeftSlide = currentLeftSlideSrc.substr(67,1) - 1;
-var thisRightSlide = currentRightSlideSrc.substr(67,1) - 1;
+    var thisLeftSlide = currentLeftSlideSrc.substr(67,1) - 1;
+    var thisRightSlide = currentRightSlideSrc.substr(67,1) - 1;
 
 
 
@@ -114,4 +114,20 @@ var thisRightSlide = currentRightSlideSrc.substr(67,1) - 1;
 
     document.getElementById("current-slider-bPic").src = document.getElementById("featured-pic-middle").src;
 
+}
+
+var bnList = document.getElementsByClassName("bn-list");
+var nextButton = document.getElementById("breaking-newslist-nextbutton");
+var prevButton = document.getElementById("breaking-newslist-prevbutton");
+
+function brNextButton(){
+    bnList[0].setAttribute("class", "bnListSlideNext bn-list");
+    nextButton.style.opacity = 0;
+    prevButton.style.opacity = 1;
+}
+
+function brPrevButton(){    
+    bnList[0].setAttribute("class", "bnListSlidePrev bn-list");
+    prevButton.style.opacity = 0;
+    nextButton.style.opacity = 1;
 }
