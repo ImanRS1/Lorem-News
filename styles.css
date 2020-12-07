@@ -243,23 +243,6 @@ body{
     }
 }
 
-/* 
-.phase3-pic-animation{
-    animation: fadeInAndOut ease-in-out 5s infinite 3.5s;
-}
-
-  @keyframes fadeInAndOut{
-    0% {
-        opacity:0;
-      }
-    23.3333%{
-        opacity: 1;
-    }  
-    33.3333% {
-        opacity: 0.2;
-      }
-}
- */
 
 
 #add-section1-header{
@@ -306,8 +289,20 @@ body{
     height: 168px;
 }
 
+#main-section1-right1 img:hover, #main-section1-right2 img:hover, #main-section1-right3 img:hover, #main-section1-right4 img:hover{
+    animation: zoomIn linear 500ms 1 forwards;   
+}
+
+@keyframes zoomIn{
+    100%{
+        width: 110%;
+        height: 190px;
+    }
+}   
+
 
 #main-section1-right{
+    overflow: hidden;
     grid-area: mainsection1right;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -320,18 +315,24 @@ body{
 #main-section1-right1{
     grid-area: mainsection1right1;
     position: relative;
+/*     width: 100%;
+    height: 100%; */
+    overflow: hidden;
 }
 #main-section1-right2{
     grid-area: mainsection1right2;
     position: relative;
+    overflow: hidden;
 }
 #main-section1-right3{
     grid-area: mainsection1right3;
     position: relative;
+    overflow: hidden;
 }
 #main-section1-right4{
     grid-area: mainsection1right4;
     position: relative;
+    overflow: hidden;
 }
 
 .insidePms1l{
