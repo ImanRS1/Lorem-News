@@ -84,6 +84,11 @@ body{
     margin-right: 15px;
 }
 
+.live{
+    margin-left: 600px;
+    margin-top: 18px;
+}
+
 #header-searchbar-section{
     margin-top: 13px;
 }
