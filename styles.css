@@ -221,7 +221,7 @@ body{
 }
 
 .bnListSlideNext{
-    animation: slideLeft linear 2s 1 forwards;
+    animation: slideLeft linear 1s 1 forwards;
 }
 
 @keyframes slideLeft{
@@ -231,7 +231,7 @@ body{
 }
 
 .bnListSlidePrev{
-    animation: slideRight linear 2s 1;
+    animation: slideRight linear 1s 1;
 }
 
 @keyframes slideRight{
