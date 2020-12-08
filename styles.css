@@ -86,8 +86,27 @@ body{
 
 .live{
     margin-left: 600px;
-    margin-top: 18px;
+    margin-top: 14px;
+    background-color: red;
+    height: 23px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#liveDot{
+    font-size: 20px;
+    margin-right: 5px;
+    animation: liveDot linear 1s infinite;
+}
+
+@keyframes liveDot{
+    50%{
+        opacity: 0;
+    }
+}
+
 
 #header-searchbar-section{
     margin-top: 13px;
