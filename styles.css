@@ -87,7 +87,7 @@ body{
 .live{
     margin-left: 600px;
     margin-top: 14px;
-    background-color: red;
+    background-image: linear-gradient(maroon, red, maroon);
     height: 23px;
     width: 65px;
     display: flex;
