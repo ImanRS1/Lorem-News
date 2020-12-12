@@ -89,10 +89,11 @@ body{
     margin-top: 14px;
     background-image: linear-gradient(maroon, red, maroon);
     height: 23px;
-    width: 65px;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 #liveDot{

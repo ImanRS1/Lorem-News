@@ -2,13 +2,27 @@ var currentDate = (new Date()).toString().split(' ').splice(1,3).join(' ');
 document.getElementById("theDate").innerHTML = currentDate;
 
 
+var slideIndex = 0;
+slideShow();
+
+function slideShow() {  
+  setTimeout(slideShow, 6000);
+  var i;
+  var slides = document.getElementsByClassName("addImages");
+  for(i = 0; i < slides.length; i++){
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if(slideIndex > slides.length){
+    slideIndex = 1;
+  }
+ slides[slideIndex-1].style.display = "block";   
+}
+
 
 var hiddenSlideImages = document.getElementsByClassName("hidden-slide-list-imgs");
 var hiddenSlideTexts = document.getElementsByClassName("hidden-slide-list-text");
 var slideContent = document.getElementsByClassName("slide-content");
-
-
-
 
 slideInit();
 slideStarter();
@@ -115,6 +129,8 @@ function plusSlides(i){
     document.getElementById("current-slider-bPic").src = document.getElementById("featured-pic-middle").src;
 
 }
+
+
 
 var bnList = document.getElementsByClassName("bn-list");
 var nextButton = document.getElementById("breaking-newslist-nextbutton");
