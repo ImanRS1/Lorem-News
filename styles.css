@@ -614,6 +614,44 @@ body{
     margin-bottom: 0px;
 }
 
+
+.main-section4{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 400px 400px; 
+    grid-template-areas: "ms4u1 ms4u1 ms4u2 ms4u2 ms4r ms4r"
+                        "ms4d1 ms4d1 ms4d2 ms4d2 ms4r ms4r";
+    grid-gap: 15px;
+    
+}
+
+.ms4u1{
+    background-color: red;
+    grid-area: ms4u1;
+}
+
+.ms4u2{
+    background-color: tomato;
+    grid-area: ms4u2;
+}
+
+.ms4d1{
+    background-color: maroon;
+    grid-area: ms4d1;
+}
+
+.ms4d2{
+    background-color: darkred;
+    grid-area: ms4d2;
+}
+
+.ms4r{
+    background: teal;
+    grid-area: ms4r;
+}
+
+
+
 #footer{
     height: 140px;
     width: 100%;
