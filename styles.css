@@ -639,7 +639,7 @@ body{
     grid-template-areas: "ms4u1 ms4u1 ms4u2 ms4u2 ms4r ms4r"
                         "ms4d1 ms4d1 ms4d2 ms4d2 ms4r ms4r";
     grid-gap: 15px;
-    
+    margin-top: 50px;
 }
 
 .ms4u1{
