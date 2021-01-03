@@ -37,7 +37,7 @@ function slideInit(){
     hiddenSlideImages.item(1).setAttribute("id", "featured-pic-middle");
     hiddenSlideTexts.item(1).setAttribute("id", "featured-text-middle");
     hiddenSlideImages.item(2).setAttribute("id", "featured-pic-right");
-}
+}/* 
 
 function slideStarter(){
     setInterval(function(){ plusSlides(1); }, 6000);
@@ -128,7 +128,7 @@ function plusSlides(i){
 
     document.getElementById("current-slider-bPic").src = document.getElementById("featured-pic-middle").src;
 
-}
+} */
 
 
 
