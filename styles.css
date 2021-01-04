@@ -474,7 +474,7 @@ body{
     width: 100%;
 }
 
-#featured-pic-right{
+#featured-pic-right img{
     width: 300px;
     height: auto;
     filter: grayscale(70%);
@@ -482,7 +482,7 @@ body{
     display: block;
 }
 
-#featured-pic-left{
+#featured-pic-left img{
     width: 300px;
     height: auto;
     filter: grayscale(70%);
@@ -493,7 +493,7 @@ body{
     display: none;
 }
 
-#featured-pic-middle{
+#featured-pic-middle img{
     width: 400px;
     filter: grayscale(0%);
     order: 2;
@@ -507,6 +507,7 @@ body{
     width: 370px;
     margin: 0px 15px;
     font-size: 20px;
+    background-color: rgba(90, 84, 84, 0.7);
 }
 
 #hide-content{
