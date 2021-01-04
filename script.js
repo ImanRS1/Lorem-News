@@ -24,7 +24,6 @@ var slideImagesLeft = document.getElementsByClassName("slide-list-imgs-left");
 var slideImagesMiddle = document.getElementsByClassName("slide-list-imgs-middle");
 var slideImagesRight = document.getElementsByClassName("slide-list-imgs-right");
 var slideText = document.getElementsByClassName("slide-list-text");
-
 /* 
 var hiddenSlideTexts = document.getElementsByClassName("hidden-slide-list-text");
 var slideContent = document.getElementsByClassName("slide-content"); */
@@ -158,9 +157,11 @@ function middleSlides(n){
       }
       for(var i = 0; i < slideImagesMiddle.length; i++) {
         slideImagesMiddle[i].style.display = "none";
+        slideText[i].style.display = "none";
       }
     
       slideImagesMiddle[middleIndex].style.display = "block";
+      slideText[middleIndex].style.display = "block";
 }
 
 function rightSlides(n){
