@@ -162,6 +162,7 @@ function middleSlides(n){
     
       slideImagesMiddle[middleIndex].style.display = "block";
       slideText[middleIndex].style.display = "block";
+      document.getElementById("current-slider-bPic").src = slideImagesMiddle[middleIndex].src;
 }
 
 function rightSlides(n){
