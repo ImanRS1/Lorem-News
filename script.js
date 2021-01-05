@@ -132,6 +132,11 @@ function plusSlides(n){
     rightSlides(rightIndex += n);
 }
 
+startAutoSlide();
+function startAutoSlide(){
+  setInterval(function(){ plusSlides(1); }, 5000);
+} 
+
 
 function leftSlides(n){
     if(n == slideImagesLeft.length){
