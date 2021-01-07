@@ -638,8 +638,8 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 350px 350px; 
-    grid-template-areas: "ms4u1 ms4u1 ms4u2 ms4u2 ms4r ms4r"
-                        "ms4d1 ms4d1 ms4d2 ms4d2 ms4r ms4r";
+    grid-template-areas: "ms4u1 ms4u1 ms4r ms4r ms4u2 ms4u2"
+                        "ms4d1 ms4d1 ms4r ms4r ms4d2 ms4d2";
     grid-gap: 15px;
     margin-top: 50px;
 }
