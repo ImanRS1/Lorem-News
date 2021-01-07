@@ -645,22 +645,18 @@ body{
 }
 
 .ms4u1{
-    background-color: red;
     grid-area: ms4u1;
 }
 
 .ms4u2{
-    background-color: tomato;
     grid-area: ms4u2;
 }
 
 .ms4d1{
-    background-color: maroon;
     grid-area: ms4d1;
 }
 
 .ms4d2{
-    background-color: darkred;
     grid-area: ms4d2;
 }
 
@@ -679,9 +675,28 @@ body{
 }
 
 .ms4r{
-    background: teal;
     grid-area: ms4r;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.ms4r p{    
+    border-bottom: 1px solid darkgray;
+    font-weight: bold;
+    padding: 15px 0px;
+    margin: 5px 0px;
+}
+
+#ms4r-tP{
+    border-top: none;
+    padding-top: 0px;
+}
+
+#ms4r-bP{
+    border-bottom: none;
+}
+
 
 
 
