@@ -698,6 +698,22 @@ body{
 }
 
 
+.main-section5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px; 
+    grid-template-areas: "ms5l ms5r";
+    grid-gap: 15px;
+    margin-top: 50px;
+}
+
+.ms5l{
+    grid-area: ms5l;
+}
+
+.ms5r{
+    grid-area: ms5r;
+}
 
 
 #footer{
