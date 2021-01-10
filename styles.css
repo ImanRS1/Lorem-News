@@ -721,5 +721,11 @@ body{
     width: 100%;
     background-color: lightslategray;
     margin-top: 60px;
+}
 
+.footer-container{
+    width: 1200px;
+    background-color: aquamarine;
+    height: 100%;
+    margin: 0 auto;
 }
