@@ -719,13 +719,14 @@ body{
 .footer{
     height: 300px;
     width: 100%;
-    background-color: lightslategray;
+    background-color: black;
     margin-top: 60px;
 }
 
 .footer-container{
+    color: white;
     width: 1200px;
-    background-color: aquamarine;
+    background-color: gray;
     height: 100%;
     margin: 0 auto;
 }
