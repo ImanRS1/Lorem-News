@@ -729,4 +729,29 @@ body{
     background-color: gray;
     height: 100%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 250px 50px;
+    grid-template-areas: "ffL sfL tfL ftfL ."
+                         ". . fcN . .";
+}
+
+.first-footerList{
+    grid-area: ffL;
+}
+
+.second-footerList{
+    grid-area: sfL;
+}
+
+.third-footerList{
+    grid-area: tfL;
+}
+
+.fourth-footerList{
+    grid-area: ftfL;
+}
+
+.footer-Cnote{
+    grid-area: fcN;
 }
