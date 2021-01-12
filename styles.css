@@ -731,9 +731,17 @@ body{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 250px 50px;
+    grid-template-rows: 200px 100px;
     grid-template-areas: "ffL sfL tfL ftfL ."
-                         ". . fcN . .";
+                         ". fcN fcN fcN .";
+}
+
+.footer-container ul{
+    list-style-type: none;
+}
+
+.footer-container ul li{
+    margin: 10px;
 }
 
 .first-footerList{
@@ -754,4 +762,7 @@ body{
 
 .footer-Cnote{
     grid-area: fcN;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
