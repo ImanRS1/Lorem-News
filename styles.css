@@ -731,9 +731,15 @@ body{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 200px 100px;
-    grid-template-areas: "ffL sfL tfL ftfL ."
+    grid-template-rows: 40px 180px 60px;
+    grid-template-areas: "ftS ftS ftS ftS ftS"
+                         "ffL sfL tfL ftfL ."
                          ". fcN fcN fcN .";
+}
+
+.footer-container a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .footer-container ul{
@@ -765,4 +771,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-topsection{
+    grid-area: ftS;
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-languages{
+    padding-left: 0px;
+}
+
+#footer-languages li{
+    display: inline;
+}
+
+#footer-icons{
+    display: flex;
+}
+
+.footer-Icon{
+    margin-right: 10px;
 }
