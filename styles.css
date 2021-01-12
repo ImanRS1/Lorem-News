@@ -778,6 +778,7 @@ body{
     background-color: tomato;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #footer-languages{
@@ -790,6 +791,12 @@ body{
 
 #footer-icons{
     display: flex;
+    padding-left: 0px;
+    align-items: center;
+}
+
+#footer-icons li{
+    margin: 0px 10px;
 }
 
 .footer-Icon{
