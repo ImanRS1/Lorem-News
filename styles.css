@@ -638,8 +638,8 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 350px 350px; 
-    grid-template-areas: "ms4u1 ms4u1 ms4r ms4r ms4u2 ms4u2"
-                        "ms4d1 ms4d1 ms4r ms4r ms4d2 ms4d2";
+    grid-template-areas: "ms4r ms4r ms4u1 ms4u1 ms4u2 ms4u2"
+                        "ms4r ms4r ms4d1 ms4d1 ms4d2 ms4d2";
     grid-gap: 15px;
     margin-top: 50px;
 }
@@ -676,9 +676,11 @@ body{
 
 .ms4r{
     grid-area: ms4r;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 50px 130px 130px 130px 130px 143px;
+    border: 1px solid black;
+    background-color: aquamarine;
+
 }
 
 .ms4r p{    
