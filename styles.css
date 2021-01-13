@@ -678,26 +678,36 @@ body{
     grid-area: ms4r;
     display: grid;
     grid-template-rows: 50px 130px 130px 130px 130px 143px;
-    border: 1px solid black;
     background-color: aquamarine;
 
 }
 
-.ms4r p{    
-    border-bottom: 1px solid darkgray;
+.ms4r-header{
+    padding-left: 15px;
+    background-color: #B60200;
     font-weight: bold;
-    padding: 15px 0px;
-    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    color: white;
 }
 
-#ms4r-tP{
-    border-top: none;
-    padding-top: 0px;
+.ms4r-1{
+
+}
+.ms4r-2{
+    
+}
+.ms4r-3{
+    
+}
+.ms4r-4{
+    
+}
+.ms4r-5{
+    
 }
 
-#ms4r-bP{
-    border-bottom: none;
-}
 
 
 .main-section5{
