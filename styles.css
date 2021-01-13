@@ -688,24 +688,23 @@ body{
     font-weight: bold;
     display: flex;
     align-items: center;
-    border: 1px solid black;
     color: white;
 }
 
 .ms4r-1{
-
+    background-color: rgb(24, 24, 24);   
 }
 .ms4r-2{
-    
+    background-color: black;    
 }
 .ms4r-3{
-    
+    background-color: rgb(24, 24, 24);   
 }
 .ms4r-4{
-    
+    background-color: black;
 }
 .ms4r-5{
-    
+    background-color: rgb(24, 24, 24);   
 }
 
 
