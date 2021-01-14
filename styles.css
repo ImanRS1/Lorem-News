@@ -692,6 +692,14 @@ body{
 
 .ms4r-1 img, .ms4r-2 img, .ms4r-3 img, .ms4r-4 img, .ms4r-5 img{
     height: 80px;
+    padding-left: 8px; 
+    padding-right: 5px;
+}
+
+.ms4r-1, .ms4r-2, .ms4r-3, .ms4r-4, .ms4r-5{
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .ms4r-1{
