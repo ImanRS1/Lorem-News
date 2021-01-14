@@ -677,8 +677,7 @@ body{
 .ms4r{
     grid-area: ms4r;
     display: grid;
-    grid-template-rows: 50px 130px 130px 130px 130px 143px;
-    background-color: aquamarine;
+    grid-template-rows: 50px 130px 130px 130px 130px 130px;
 
 }
 
@@ -691,9 +690,14 @@ body{
     color: white;
 }
 
+.ms4r-1 img, .ms4r-2 img, .ms4r-3 img, .ms4r-4 img, .ms4r-5 img{
+    height: 80px;
+}
+
 .ms4r-1{
     background-color: rgb(24, 24, 24);   
 }
+
 .ms4r-2{
     background-color: black;    
 }
