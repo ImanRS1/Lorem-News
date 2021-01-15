@@ -318,7 +318,7 @@ body{
 }
 
 #main-section1-right1 img:hover, #main-section1-right2 img:hover, #main-section1-right3 img:hover, #main-section1-right4 img:hover{
-    animation: zoomIn linear 500ms 1 forwards;   
+    animation: zoomIn linear 300ms 1 forwards;   
 }
 
 @keyframes zoomIn{
