@@ -319,6 +319,7 @@ body{
 
 #main-section1-right1 img:hover, #main-section1-right2 img:hover, #main-section1-right3 img:hover, #main-section1-right4 img:hover{
     animation: zoomIn linear 300ms 1 forwards;   
+    cursor: pointer;
 }
 
 @keyframes zoomIn{
@@ -378,18 +379,16 @@ body{
     font-weight: normal;
 }
 
-.insidePms1r1{
+.insidePms1r1, .insidePms1r2{
     position: absolute;
     bottom: 10px;
     text-align: start;
     margin: 0% 5%;
 }
 
-.insidePms1r2{
-    position: absolute;
-    bottom: 10px;
-    text-align: start;
-    margin: 0% 5%;
+.insidePms1r1:hover, .insidePms1r2:hover{
+    color: #B60200;
+    cursor: pointer;
 }
 
 .insidePms1style{
@@ -474,7 +473,7 @@ body{
 
 .slide-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
 }
@@ -548,7 +547,6 @@ body{
     align-items: center; 
     justify-content: space-between;
     width: 99.5%;
-    z-index: 997;
 }
 
 #featured-slide-button{
