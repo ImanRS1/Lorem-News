@@ -655,6 +655,15 @@ body{
     margin-bottom: 0px;
 }
 
+#main-section3-left p:hover, #main-section3-middle p:hover, #main-section3-right p:hover{
+    color: #B60200;
+    cursor: pointer;
+}
+
+#main-section3-left img:hover, #main-section3-middle img:hover{
+    -webkit-filter: brightness(115%);
+    cursor: pointer;
+}
 
 .main-section4{
     display: grid;
