@@ -190,6 +190,16 @@ body{
     width: 200%;
 }
 
+.bn-list li:hover{
+    color: #B60200;
+    cursor: pointer;
+}
+
+#lastBNlist:hover, #firstBNlistP:hover{
+    color: #B60200;
+    cursor: pointer;
+}
+
 .breaking-newslist ul li{
     display: inline;
     border-right: 1px solid darkgray;
