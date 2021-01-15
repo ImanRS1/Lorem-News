@@ -691,6 +691,11 @@ body{
     grid-area: ms4d2;
 }
 
+.ms4u1:hover, .ms4u2:hover, .ms4d1:hover, .ms4d2:hover{
+    -webkit-filter: brightness(115%);
+    cursor: pointer;
+    color: #B60200;
+}
 
 .ms4u1-image img, .ms4u2-image img, .ms4d1-image img, .ms4d2-image img{
     width: 100%;
@@ -733,10 +738,13 @@ body{
     align-items: center;
 }
 
+.ms4r-1:hover, .ms4r-2:hover, .ms4r-3:hover, .ms4r-4:hover, .ms4r-5:hover{
+    color: #B60200;
+    cursor: pointer;
+}
 .ms4r-1{
     background-color: rgb(24, 24, 24);   
 }
-
 .ms4r-2{
     background-color: black;    
 }
