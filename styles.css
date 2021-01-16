@@ -860,9 +860,9 @@ body{
     padding-top: 2px;
 }
 
-.footer-Icon{
+#footer-Icon{
     margin-right: 10px;
-    height: 80%;
+    height: 40px;
 }
 
 .footer-firstLine{
