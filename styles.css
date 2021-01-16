@@ -833,6 +833,12 @@ body{
     grid-area: ftfL;
 }
 
+
+.first-footerList li:hover, .second-footerList li:hover, .third-footerList li:hover, .fourth-footerList li:hover{
+    cursor: pointer;
+    color: #B60200;
+}
+
 .footer-Cnote{
     grid-area: fcN;
     display: flex;
@@ -855,6 +861,11 @@ body{
     display: inline;
 }
 
+#footer-languages li:hover{
+    color: #B60200;
+    cursor: pointer;
+}
+
 #footer-icons{
     display: flex;
     padding-left: 0px;
@@ -872,7 +883,7 @@ body{
 }
 
 .footer-firstLine{
-    height: 30px;
+    margin-top: 27px;
     width: 100%;
     border-bottom: 2px solid white;
     position: absolute;
