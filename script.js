@@ -107,3 +107,30 @@ function brPrevButton(){
     prevButton.style.opacity = 0;
     nextButton.style.opacity = 1;
 }
+
+
+
+var mainsec1Index = 1;
+ms1Slides(mainsec1Index);
+
+function ms1PlusSlide(n){
+  ms1Slides(mainsec1Index += n);
+}
+function ms1CurrentSlide(n){
+  ms1Slides(mainsec1Index = n);
+}
+function ms1Slides(n){
+  var i;
+  var slides = document.getElementsByClassName("ms1SlideObjects");
+  if(n > slides.length){
+    mainsec1Index = 1;
+  }
+  if(n < 1){
+    mainsec1Index = slides.length;
+  }
+  for(i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[mainsec1Index - 1].style.display = "block";
+}
