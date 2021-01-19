@@ -42,6 +42,7 @@ function plusSlides(n){
 startAutoSlide();
 function startAutoSlide(){
   setInterval(function(){ plusSlides(1); }, 5000);
+  setInterval(function(){ ms1PlusSlide(1); }, 4000);
 } 
 
 
