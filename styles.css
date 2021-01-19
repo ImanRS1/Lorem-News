@@ -108,6 +108,10 @@ body{
     }
 }
 
+.live:hover{
+    color: black;
+    cursor: pointer;
+}
 
 #header-searchbar-section{
     margin-top: 13px;
@@ -133,6 +137,10 @@ body{
     width: 24px;
     height: 24px;
     padding: 0;
+}
+
+#searchButton:hover{
+    cursor: pointer;
 }
 
 #navoptions{
