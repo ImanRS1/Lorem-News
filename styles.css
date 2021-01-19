@@ -243,7 +243,6 @@ body{
 }
 
 #breaking-newslist-nextbutton, #breaking-newslist-prevbutton{
-    border: 1px solid darkgray;
     display: flex;
     align-items: center; 
     border-radius: 50%;
@@ -579,7 +578,6 @@ body{
 }
 
 #featured-slide-button{
-    border: 1px solid darkgray;
     display: flex;
     align-items: center; 
     border-radius: 50%;
