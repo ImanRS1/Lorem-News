@@ -613,6 +613,9 @@ body{
 }
 
 
+#ms3-header{
+    margin-top: 50px;
+}
 
 #main-section3{
     display: grid;
@@ -622,7 +625,7 @@ body{
     column-gap: 15px;   
     margin-bottom: 30px;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #main-section3-left{
@@ -698,6 +701,10 @@ body{
     cursor: pointer;
 }
 
+#ms4-header{
+    margin-top: 50px;
+}
+
 .main-section4{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -705,7 +712,7 @@ body{
     grid-template-areas: "ms4r ms4r ms4u1 ms4u1 ms4u2 ms4u2"
                         "ms4r ms4r ms4d1 ms4d1 ms4d2 ms4d2";
     grid-gap: 15px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .ms4u1{
@@ -792,6 +799,9 @@ body{
 }
 
 
+#ms5-header{
+    margin-top: 50px;
+}
 
 .main-section5{
     display: grid;
@@ -799,7 +809,7 @@ body{
     grid-template-rows: 450px; 
     grid-template-areas: "ms5l ms5r";
     grid-gap: 15px;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .ms5l{
