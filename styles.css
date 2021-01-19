@@ -367,6 +367,9 @@ body{
     }
 }
 
+#main-section1-right1:hover div, #main-section1-right2:hover div, #main-section1-right3:hover div, #main-section1-right4:hover div{
+    color: #B60200;
+}
 
 #main-section1-right{
     overflow: hidden;
@@ -411,11 +414,6 @@ body{
     z-index: 50;
 }
 
-.insidePms1l:hover{
-    color:#B60200;
-    cursor: pointer;
-}
-
 #insidePms1lu{
     color: lightgray;
     font-size: 18px;
@@ -429,10 +427,10 @@ body{
     margin: 0% 5%;
 }
 
-.insidePms1r1:hover, .insidePms1r2:hover{
+/* .insidePms1r1:hover, .insidePms1r2:hover{
     color: #B60200;
     cursor: pointer;
-}
+} */
 
 .insidePms1style{
     color: white;
