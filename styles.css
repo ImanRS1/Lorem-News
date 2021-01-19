@@ -427,11 +427,6 @@ body{
     margin: 0% 5%;
 }
 
-/* .insidePms1r1:hover, .insidePms1r2:hover{
-    color: #B60200;
-    cursor: pointer;
-} */
-
 .insidePms1style{
     color: white;
     font-size: 18px;
@@ -563,6 +558,7 @@ body{
 
 #featured-text-middle:hover{
     cursor: pointer;
+    color: #B60200;
 }
 
 #hide-content{
@@ -692,7 +688,7 @@ body{
     margin-bottom: 0px;
 }
 
-#ms3lP2:hover, #main-section3-middle p:hover, #main-section3-right p:hover{
+#ms3lP2:hover, #main-section3-middle:hover p, #main-section3-right p:hover{
     color: #B60200;
     cursor: pointer;
 }
