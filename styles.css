@@ -691,14 +691,10 @@ body{
     margin-bottom: 0px;
 }
 
-#ms3lP2:hover, #main-section3-middle:hover p, #main-section3-right p:hover{
+#ms3lP2:hover, #main-section3-middle:hover p, #main-section3-right p:hover, #main-section3-middle:hover img{
     color: #B60200;
     cursor: pointer;
-}
-
-#main-section3-middle img:hover{
     -webkit-filter: brightness(115%);
-    cursor: pointer;
 }
 
 #ms4-header{
