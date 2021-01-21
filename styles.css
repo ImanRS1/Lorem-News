@@ -162,6 +162,46 @@ body{
     background-color: darkgray;
 }
 
+
+.header-mobile-socialmedia{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(226, 225, 225);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+    grid-template-areas: "hms1 hms2 hms3 hms4";    
+    display: none;
+}
+
+#hmS-1, #hmS-2, #hmS-3, #hmS-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-right: solid 1px lightgray;
+}
+
+#hmS-1{ 
+    grid-area: hms1;
+        
+}
+#hmS-2{
+    grid-area: hms2;
+    
+}
+#hmS-3{
+    grid-area: hms3;
+    
+}
+#hmS-4{
+    grid-area: hms4;
+    border-right: none;
+}
+
+
+
 .main{
     width: 1200px;
     height: auto;
@@ -937,5 +977,9 @@ body{
 
 }
 
-@media only screen and (max-width: 1215px) {
+@media only screen and (max-width: 950px) {
+    .header-mobile-socialmedia{ 
+        display: grid;
+    }
+
 }
