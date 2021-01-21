@@ -982,7 +982,7 @@ body{
         display: grid;
     }
 
-    #header-topsection, #header-bottomsection-container{
+    #header-topsection, #header-bottomsection-container, #header-searchbar-section{
         display: none;
     }
 
