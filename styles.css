@@ -65,6 +65,7 @@ body{
 #header-middlesection-container{
     display: flex;
     justify-content: space-between;    
+    height: 100%;
 }
 
 #header-title{
@@ -76,13 +77,15 @@ body{
 }
 
 #header-title p{
-    margin: 0;
-    margin-bottom: 10px;
+    /* margin: 0;
+    margin-bottom: 10px; */
 }
 
 #header-icon{   
     margin-right: 15px;
+    height: 100%;
 }
+
 
 .live{
     background-image: linear-gradient(maroon, red, maroon);
@@ -92,8 +95,6 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    margin-right: 50px;
-    margin-bottom: 28px;
 }
 
 #liveDot{
@@ -120,7 +121,7 @@ body{
 }
 
 #header-searchbar-section p{
-    margin: 0 0 10px 0;
+    margin: 0;
     text-align: end;
 }
 
@@ -200,6 +201,13 @@ body{
     border-right: none;
 }
 
+.burgerMenu{
+    font-size: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid gray;
+}
 
 
 .main{
@@ -982,7 +990,7 @@ body{
         display: grid;
     }
 
-    #header-topsection, #header-bottomsection-container, #header-searchbar-section{
+    #header-topsection, #header-bottomsection-container, #header-searchbar{
         display: none;
     }
 
