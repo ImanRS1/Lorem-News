@@ -85,7 +85,6 @@ body{
 }
 
 .live{
-    /* margin-left: 600px; */
     background-image: linear-gradient(maroon, red, maroon);
     height: 23px;
     width: 60px;
@@ -93,7 +92,8 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: 50px;
+    margin-bottom: 28px;
 }
 
 #liveDot{
@@ -931,6 +931,9 @@ body{
         margin: 0 auto;
     }
 
+    #navoptions a{
+        padding: 0 2.5%;
+    }
 
 }
 
