@@ -982,4 +982,14 @@ body{
         display: grid;
     }
 
+    #header-topsection, #header-bottomsection-container{
+        display: none;
+    }
+
+    #header-middlesection{
+        border-bottom: none;
+    }
+
+    
+
 }
