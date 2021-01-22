@@ -76,10 +76,6 @@ body{
     font-family: fantasy;
 }
 
-#header-title p{
-    /* margin: 0;
-    margin-bottom: 10px; */
-}
 
 #header-icon{   
     margin-right: 15px;
@@ -1000,6 +996,41 @@ body{
 
     #breaking-news{
         display: none;
+    }
+
+    #main-section1{
+        grid-template-columns: 1fr;
+        grid-template-areas: "mainsection1left"
+                            "mainsection1right";
+        row-gap: 15px; 
+    }
+
+    .main{
+        width: 900px;
+    }
+
+    #main-section1-right1 img:hover, #main-section1-right2 img:hover, #main-section1-right3 img:hover, #main-section1-right4 img:hover{
+        animation: none;   
+        -webkit-filter: brightness(115%);
+        cursor: pointer;
+    }
+
+    #featured-slide{
+        width: 900px;
+    }
+
+    #featured-pic-right, #featured-pic-left{
+        display: none;
+    }
+
+    #featured-pic-middle img{
+        width: 550px;
+    }
+
+    #featured-text-middle{ 
+        bottom: 40px;
+        left: 200px;
+        width: 470px;
     }
 
 }
