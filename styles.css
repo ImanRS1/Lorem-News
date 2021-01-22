@@ -95,6 +95,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    margin-right: 15px;
 }
 
 #liveDot{
@@ -207,6 +208,7 @@ body{
     display: flex;
     align-items: center;
     border-left: 1px solid gray;
+    display: none;
 }
 
 .searchIcon-MV{
@@ -215,6 +217,7 @@ body{
     display: flex;
     align-items: center;
     border-left: 1px solid gray;
+    display: none;
 }
 
 .searchIcon-MV img{
@@ -1010,6 +1013,19 @@ body{
         border-bottom: none;
     }
 
+    .burgerMenu{
+        display: flex
+    }
+    
+    .searchIcon-MV{
+        display: flex;
+    }    
     
 
+}
+
+@media only screen and (max-width: 500px) {
+    #header-title{
+        font-size: 0px;
+    }
 }
