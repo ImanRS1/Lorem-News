@@ -209,6 +209,18 @@ body{
     border-left: 1px solid gray;
 }
 
+.searchIcon-MV{
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid gray;
+}
+
+.searchIcon-MV img{
+    height: 70%;
+    width: 100%;
+}
 
 .main{
     width: 1200px;
