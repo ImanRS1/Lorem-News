@@ -998,6 +998,10 @@ body{
         padding: 0 2.5%;
     }
 
+    #breaking-news{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -1020,6 +1024,8 @@ body{
     .searchIcon-MV{
         display: flex;
     }    
+
+
     
 
 }
