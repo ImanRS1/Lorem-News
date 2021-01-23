@@ -1187,6 +1187,33 @@ body{
         display: none;
     }
     
+    .footer-container{
+        color: white;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-section4{
+        grid-template-rows: auto;
+        grid-template-areas: "ms4r ms4r"
+                            "ms4u1 ms4u2"
+                            "ms4d1 ms4d2";
+        font-size: 12px;
+    }
+
+    .ms4r{
+        grid-template-rows: 20px 70px 70px 70px 70px 70px;
+    }
+
+    .ms4r img{
+        width: 10%;
+        height: auto;
+    }
+
+    .ms4u1-image img, .ms4u2-image img, .ms4d1-image img, .ms4d2-image img{
+        height: 150px;
+    }
 
 }
 
