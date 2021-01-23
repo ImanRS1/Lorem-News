@@ -1182,6 +1182,10 @@ body{
     .add-section1{
         height: 75px;
     }
+
+    #footer-icons{
+        display: none;
+    }
     
 
 }
