@@ -947,6 +947,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 #footer-languages{
@@ -1220,5 +1221,78 @@ body{
 @media only screen and (max-width: 520px) {
     #header-title{
         font-size: 0px;
+    }
+
+    .main, .footer-container{
+        width: 94%;
+    }
+
+    .add-section1-header{
+        width: 100%;
+    }
+
+    .add-section1-header p{
+        font-size: 8px;
+    }
+
+    .add-section1{
+        height: 50px;
+    }
+
+    #main-section2{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:"mainsection2left  mainsection2left " 
+                            "mainsection2middle mainsection2right";
+        row-gap: 15px; 
+    }
+
+    #main-section2-left img{
+        height: 250px
+    }
+    
+
+    .footer{
+        height: auto;
+    }
+
+    .footer-topsection{
+        width: 100%;
+        flex-wrap: wrap;
+        border-bottom: 1px solid white;
+    }
+
+    #footer-languages{
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+
+    .footer-firstLine{
+        display: none;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "ftS ftS"
+                             "ffL sfL"
+                             "tfL ftfL"
+                             "fcN fcN";
+        margin: auto;
+    }
+
+    .footer-container ul{
+        padding-left: 0px;
+    }
+
+    .footer-Cnote{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 394px) {
+    .insidePms1l{
+        font-size: 14px;
+        bottom: 10px;
     }
 }
