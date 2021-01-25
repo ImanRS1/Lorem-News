@@ -223,6 +223,34 @@ body{
     width: 100%;
 }
 
+.burgerMenu-dropdown{
+    width: 100%;
+    height: auto;
+}
+
+#BM-navoptions{
+    list-style-type: none;
+    margin: 0; 
+    padding-left: 0px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+#BM-navoptions li{
+    border: 0.5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding: 5px 0px;
+    color: white;
+}
+
+#BM-navoptions li:hover{
+    color: red;
+    background-color: rgb(65, 65, 65);
+}
+
 .main{
     width: 1200px;
     height: auto;
