@@ -208,6 +208,11 @@ body{
     padding: 0px 5px;
 }
 
+.burgerMenu:hover, .searchIcon-MV:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
 .searchIcon-MV{
     height: 100%;
     width: 40px;
@@ -226,6 +231,7 @@ body{
 .burgerMenu-dropdown{
     width: 100%;
     height: auto;
+    display: none;
 }
 
 #BM-navoptions{
