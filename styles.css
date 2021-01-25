@@ -203,14 +203,16 @@ body{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-left: 1px solid gray;
     display: none;
     padding: 0px 5px;
+    width: 40px;
 }
 
 .burgerMenu:hover, .searchIcon-MV:hover{
     cursor: pointer;
-    background-color: gray;
+    background-color: rgb(85, 85, 85);
 }
 
 .searchIcon-MV{

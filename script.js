@@ -135,3 +135,18 @@ function ms1Slides(n){
 
   slides[mainsec1Index - 1].style.display = "block";
 }
+
+
+function showDropDown(){
+  var dropDownMenu = document.getElementsByClassName("burgerMenu-dropdown");
+  var burgerIcon = document.getElementsByClassName("burgerMenu");
+  
+  if(dropDownMenu[0].style.display == "block"){
+    dropDownMenu[0].style.display = "none";
+    burgerIcon[0].innerHTML = "&#9776;";
+  }else{
+    dropDownMenu[0].style.display = "block";
+    burgerIcon[0].innerHTML = "&#10006;";
+  }
+}
+
