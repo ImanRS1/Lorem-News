@@ -163,7 +163,7 @@ body{
 
 .header-mobile-socialmedia{
     width: 100%;
-    height: 45px;
+    height: 25px;
     background-color: rgb(226, 225, 225);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -179,6 +179,12 @@ body{
     width: 100%;
     height: 100%;
     border-right: solid 1px lightgray;
+}
+
+
+#hmS-1 img, #hmS-2 img, #hmS-3 img, #hmS-4 img{
+    width: 20px;
+    height: 20px;
 }
 
 #hmS-1{ 
@@ -1084,6 +1090,10 @@ body{
 }
 
 @media only screen and (max-width: 950px) {
+        
+    #header{
+        height: auto;
+    }
     .header-mobile-socialmedia{ 
         display: grid;
     }
