@@ -1338,6 +1338,10 @@ body{
     .footer-Cnote{
         font-size: 10px;
     }
+    
+    .main-section5{
+        grid-template-rows: 350px; 
+    }
 }
 
 @media only screen and (max-width: 394px) {
