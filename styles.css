@@ -163,7 +163,7 @@ body{
 
 .header-mobile-socialmedia{
     width: 100%;
-    height: 25px;
+    height: 30px;
     background-color: rgb(226, 225, 225);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1337,6 +1337,15 @@ body{
 
     .footer-Cnote{
         font-size: 10px;
+    }
+    
+    .main-section5{
+        grid-template-rows: 350px; 
+    }
+
+    #main-section1-right1 img, #main-section1-right2 img, #main-section1-right3 img, #main-section1-right4 img{
+        width: 100%;
+        height: 140px;
     }
 }
 
