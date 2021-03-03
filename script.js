@@ -8,7 +8,7 @@ slideShow();
 function slideShow() {  
   setTimeout(slideShow, 6000);
   var i;
-  var slides = document.getElementsByClassName("addImages");
+  var slides = document.getElementsByClassName("aImages");
   for(i = 0; i < slides.length; i++){
     slides[i].style.display = "none";
   }
