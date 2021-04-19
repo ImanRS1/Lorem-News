@@ -147,6 +147,7 @@ function showDropDown(){
   }else{
     dropDownMenu[0].style.display = "block";
     burgerIcon[0].innerHTML = "&#10006;";
+    
   }
 }
 
