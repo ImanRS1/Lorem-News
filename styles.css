@@ -710,17 +710,17 @@ body {
   display: flex;
   align-items: center;
   border-radius: 50%;
+  font-size: 2rem;
   width: auto;
   padding: 16px;
   height: 10px;
-  background-color: darkgray;
   font-weight: bold;
   color: white;
 }
 
 #featured-slide-button:hover {
   cursor: pointer;
-  background-color: rgb(182, 3, 3);
+  color: rgb(182, 3, 3);
 }
 
 .hidden-slide-list-text {
