@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
 body {
   background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
@@ -76,7 +78,7 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  font-family: fantasy;
+  font-family: "Abril Fatface", cursive;
 }
 
 #header-icon {
