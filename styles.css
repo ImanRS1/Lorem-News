@@ -1316,11 +1316,13 @@ body {
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 570px) {
   #header-title {
     font-size: 0px;
   }
+}
 
+@media only screen and (max-width: 520px) {
   .main,
   .footer-container {
     width: 94%;
